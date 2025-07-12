@@ -57,25 +57,13 @@ export const ContactSection = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold">Email</h4>
-                      <p className="text-sm text-muted-foreground">timir.mishra@email.com</p>
+                      <p className="text-sm text-muted-foreground">mishratimir02@gmail.com</p>
                     </div>
                   </div>
                 </CardContent>
               </Card>
 
-              <Card className="bg-card/50 backdrop-blur-sm border-border/20">
-                <CardContent className="p-6">
-                  <div className="flex items-center space-x-4">
-                    <div className="p-3 bg-primary/10 rounded-lg">
-                      <Phone className="h-6 w-6 text-primary" />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold">Phone</h4>
-                      <p className="text-sm text-muted-foreground">+91 XXXXX XXXXX</p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+              
 
               <Card className="bg-card/50 backdrop-blur-sm border-border/20">
                 <CardContent className="p-6">
@@ -85,7 +73,7 @@ export const ContactSection = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold">Location</h4>
-                      <p className="text-sm text-muted-foreground">India</p>
+                      <p className="text-sm text-muted-foreground">Kharagpur, West Bengal, India</p>
                     </div>
                   </div>
                 </CardContent>
@@ -139,8 +127,24 @@ export const ContactSection = () => {
               </form>
             </CardContent>
           </Card>
+          
         </div>
       </div>
+      <div className="text-center pt-16 border-t border-primary/20">
+          <Card className="glass-strong p-6 inline-block hover-lift border-0 backdrop-blur-xl">
+            <div className="flex items-center space-x-3">
+              <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
+                <span className="text-sm font-bold text-primary-foreground">©</span>
+              </div>
+              <div className="flex flex-col text-left">
+                <a href="https://github.com/sayantancodex" target="_blank">
+                <p className="text-sm font-bold gradient-text">A Sayantan Patra Production</p>
+                </a>
+                <p className="text-xs text-muted-foreground">© 2024 All Rights Reserved</p>
+              </div>
+            </div>
+          </Card>
+        </div>
     </section>
   );
 };
