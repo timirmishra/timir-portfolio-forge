@@ -223,9 +223,6 @@ export const Background = () => {
     <canvas
       ref={canvasRef}
       className="fixed inset-0 pointer-events-none z-0"
-      style={{ 
-        background: 'radial-gradient(ellipse at center, hsl(var(--background)) 0%, hsl(var(--muted)) 50%, hsl(var(--background)) 100%)'
-      }}
     />
   );
 };

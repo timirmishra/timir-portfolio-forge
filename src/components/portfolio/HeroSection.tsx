@@ -1,6 +1,7 @@
 
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 
 export const HeroSection = () => {
   const scrollToAbout = () => {
@@ -14,9 +15,16 @@ export const HeroSection = () => {
           {/* Glass card container */}
           <div className="backdrop-blur-xl bg-card/20 border border-white/10 rounded-3xl p-8 md:p-12 shadow-2xl">
             <div className="mb-8">
-              <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-primary/30 to-primary/10 border border-primary/30 flex items-center justify-center backdrop-blur-sm shadow-xl">
-                <span className="text-4xl font-bold text-primary drop-shadow-lg">TM</span>
-              </div>
+              <Avatar className="w-32 h-32 mx-auto mb-6 border-2 border-primary/30 shadow-xl">
+                <AvatarImage 
+                  src="/placeholder.svg" 
+                  alt="Timir Mishra"
+                  className="object-cover"
+                />
+                <AvatarFallback className="text-4xl font-bold text-primary bg-gradient-to-br from-primary/30 to-primary/10 backdrop-blur-sm">
+                  TM
+                </AvatarFallback>
+              </Avatar>
             </div>
 
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-foreground via-primary to-foreground bg-clip-text text-transparent leading-tight drop-shadow-sm">
