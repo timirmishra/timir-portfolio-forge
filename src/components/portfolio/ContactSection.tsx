@@ -140,7 +140,7 @@ export const ContactSection = () => {
                 <a href="https://github.com/sayantancodex" target="_blank">
                 <p className="text-sm font-bold gradient-text">A Sayantan Patra Production</p>
                 </a>
-                <p className="text-xs text-muted-foreground">© 2024 All Rights Reserved</p>
+                <p className="text-xs text-muted-foreground">© 2025 All Rights Reserved</p>
               </div>
             </div>
           </Card>
