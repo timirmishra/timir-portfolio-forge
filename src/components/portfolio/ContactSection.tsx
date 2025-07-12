@@ -133,9 +133,7 @@ export const ContactSection = () => {
       <div className="text-center pt-16 border-t border-primary/20">
           <Card className="glass-strong p-6 inline-block hover-lift border-0 backdrop-blur-xl">
             <div className="flex items-center space-x-3">
-              <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-sm font-bold text-primary-foreground">©</span>
-              </div>
+              
               <div className="flex flex-col text-left">
                 <a href="https://github.com/sayantancodex" target="_blank">
                 <p className="text-sm font-bold gradient-text">A Sayantan Patra Production</p>
